@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import I from './index';
+import Index from './index';
 
 const App = () => {
   return (
     <div>
-      <I />
+      <Index />
     </div>
   );
 };
