@@ -2,12 +2,15 @@ import React from 'react';
 import './Header.css';
 import Img from './ImageThumbnail';
 import Title from './HeaderTitle';
-
+import Content from './HeaderContent';
 function Header() {
     return(
         <div>
-            <Img />
-            <Title />
+            <header>
+                <Img />
+                <Title />
+                <Content />
+            </header>
         </div>
     )
 }
